@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!-- set toolbar and primary color -->
+        <item name="colorAccent">@color/color_accent</item>
+
+        <!-- set semi transparent status bar -->
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+    </style>
+
+    <style name="CityListTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/toolbar_background</item>
+        <item name="colorAccent">@color/color_accent</item>
+    </style>
+
+    <style name="SettingsActivityTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/toolbar_background</item>
+        <item name="colorAccent">@color/color_accent</item>
+
+    </style>
+
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">好天气</string>
+    <string name="drawer_toggle_open">Open</string>
+    <string name="drawer_toggle_close">Close</string>
+    <string name="drawer_menu_head_text">好天气好心情</string>
+    <string name="add_city">Add City</string>
+    <string name="city">城市</string>
+    <string name="drawer_head_image">DrawerLayout Head Image</string>
+    <string name="weather_publish_time">Weather Pulish Time</string>
+    <string name="title_activity_city_list">CityListActivity</string>
+
+    <string name="select_city">选择城市</string>
+    <string name="input_city_name">请输入城市名称</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+</resources>

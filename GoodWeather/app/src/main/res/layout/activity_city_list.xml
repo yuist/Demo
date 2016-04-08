@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.CityListActivity">
+
+    <LinearLayout
+        android:elevation="5dp"
+        android:background="@color/toolbar_background"
+        android:padding="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+
+            <ImageButton
+                android:id="@+id/city_select_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:src="@drawable/ic_arrow_back_white_36dp" />
+
+            <TextView
+                android:textColor="@color/color_accent"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/select_city"
+                android:textSize="24sp" />
+
+            <ImageButton
+                android:id="@+id/city_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:src="@drawable/ic_search_white_36dp" />
+
+        </LinearLayout>
+
+        <EditText
+            android:textColor="@color/color_accent"
+            android:background="@drawable/city_search_bar"
+            android:id="@+id/input_city_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/input_city_name"
+            android:textColorHint="@color/city_search_text_hint"
+            android:padding="8dp" />
+
+    </LinearLayout>
+
+    <ListView
+        android:padding="16dp"
+        android:id="@+id/city_select_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="0dp">
+
+    </ListView>
+
+
+</LinearLayout>

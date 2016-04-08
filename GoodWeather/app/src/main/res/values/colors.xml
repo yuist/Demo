@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- primary color -->
+    <color name="toolbar_background">#3498db</color>
+    <color name="color_accent">#ffffff</color>
+    <color name="status_bar">#2980b9</color>
+    <color name="separate_line">#999</color>
+    <color name="drawer_background">#ffffff</color>
+    <color name="border_color">#777</color>
+
+    <!-- swipe refresh color -->
+    <color name="refresh_one">#00933b</color>
+    <color name="refresh_two">#f90101</color>
+    <color name="refresh_three">#0266c8</color>
+    <color name="refresh_four">#f2b50f</color>
+
+    <!-- other -->
+    <color name="weather_fragment_background">#eee</color>
+    <color name="city_search_text_hint">#ddd</color>
+    <color name="city_search_bar">#3080c0</color>
+    <color name="widget_text_color">#777</color>
+
+</resources>
